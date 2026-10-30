@@ -130,7 +130,7 @@ const CONFIG = {
   lainnya: [
          {
       ikon: "✍️",
-      judul: "Gimana Menulis Esai Beasiswa Pemerintah?",
+      judul: "Gimana Saya Menulis Esai Beasiswa Pemerintah?",
       deskripsi: "Antara esai yang baik dan esai yang diterima: catatan reflektif seorang awardee.",
       link: "https://www.kompasiana.com/nurmutiarahusnahhbw4351/6811efe434777c4d1d068f03/antara-esai-yang-baik-dan-esai-yang-diterima-catatan-reflektif-seorang-awardee",
     },
