@@ -19,7 +19,7 @@ const CONFIG = {
   /* ---------------------------- PROFIL ---------------------------------- */
   nama: "Tiara's Corner",
   tagline: "A little corner of my world ♡",
-  sapaan: "Hai, senang kamu mampir! Di sini aku berbagi tulisan, buku, dan karya kecil yang kubuat dengan sepenuh hati.",
+  sapaan: "Hai, senang kamu mampir!",
   fotoProfil: "",        // contoh: "gambar/profil.jpg"  — kosongkan untuk menampilkan inisial
   inisial: "T",
 
@@ -29,7 +29,7 @@ const CONFIG = {
     tampilkan: true,     // ubah ke false untuk menyembunyikan bagian ini
     label: "My Blog",
     judul: "Ruang Tulisku",
-    deskripsi: "Tempat saya berbagi tulisan dan berbagai pemikiran.",
+    deskripsi: "Hanya tempat tulisan yang dirasa terlalu panjang jadi caption di instagram",
     tombol: "Kunjungi Blog",
     link: "https://nurmutiara-h-hbw.blogspot.com/?m=1",
   },
@@ -63,12 +63,12 @@ const CONFIG = {
     link: "",                  // ← TEMPEL LINK LYNK.ID DI SINI, contoh: "https://lynk.id/raatiara_/xxxx"
 
     // Gambar kecil di kartu halaman utama
-    gambarKartu: "gambar/preview-ringkasan.jpg",
+    gambarKartu: "preview-ringkasan.jpg",
 
     // Gambar preview di halaman produk (bisa diketuk untuk diperbesar)
     gambarPreview: [
-      { gambar: "gambar/preview-dashboard.jpg", keterangan: "Dashboard: ringkasan keuangan bulanan otomatis" },
-      { gambar: "gambar/preview-catat-uang.jpg", keterangan: "Catat Uang: sekitar 10 detik per catatan" },
+      { gambar: "preview-dashboard.jpg", keterangan: "Dashboard: ringkasan keuangan bulanan otomatis" },
+      { gambar: "preview-catat-uang.jpg", keterangan: "Catat Uang: sekitar 10 detik per catatan" },
     ],
 
     apaItu: "Planner Keuangan Pribadi adalah file Excel siap pakai untuk mencatat keuanganmu sehari-hari. Kamu cukup mengisi tanggal, jenis, kategori, dan jumlah uang. Sisanya dikerjakan planner: menjumlahkan semuanya, membandingkan dengan anggaran, menghitung progres tabungan, dan membuat grafik. Tidak harus sempurna, yang penting mulai.",
