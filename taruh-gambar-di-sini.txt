@@ -1,0 +1,3 @@
+Taruh gambar di folder ini (foto profil, cover buku, preview produk).
+Contoh nama file: profil.jpg, cover-buku.jpg, preview-1.jpg
+Lalu tulis di config.js, misalnya: fotoProfil: "gambar/profil.jpg",
