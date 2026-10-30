@@ -19,7 +19,7 @@ const CONFIG = {
   /* ---------------------------- PROFIL ---------------------------------- */
   nama: "Tiara's Corner",
   tagline: "A little corner of my world ♡",
-  sapaan: "Hai, senang kamu mampir!",
+  sapaan: "Hai, senang kamu mampir! Di sini aku berbagi tulisan, buku, dan karya kecil yang kubuat dengan sepenuh hati.",
   fotoProfil: "",        // contoh: "gambar/profil.jpg"  — kosongkan untuk menampilkan inisial
   inisial: "T",
 
@@ -29,7 +29,7 @@ const CONFIG = {
     tampilkan: true,     // ubah ke false untuk menyembunyikan bagian ini
     label: "My Blog",
     judul: "Ruang Tulisku",
-    deskripsi: "Hanya tempat tulisan yang dirasa terlalu panjang jadi caption di instagram",
+    deskripsi: "Tempat saya berbagi tulisan dan berbagai pemikiran.",
     tombol: "Kunjungi Blog",
     link: "https://nurmutiara-h-hbw.blogspot.com/?m=1",
   },
@@ -54,13 +54,13 @@ const CONFIG = {
     tampilkan: true,
     label: "My Digital Product",
     nama: "Planner Keuangan Pribadi",
-    ringkas: "Cukup catat uang masuk dan keluar. Total, anggaran, target tabungan, dan grafik dihitung otomatis. Mulai dalam 5 menit!",
-    format: "File Excel · tanpa makro",
+    ringkas: "Cukup catat uang masuk dan keluar. Total, anggaran, target tabungan, dan grafik dihitung otomatis. Tanpa bunga, tanpa paylater, ada pos zakat & sedekah.",
+    format: "File Excel · tanpa makro · tanpa bunga",
     harga: "Rp 25.000",
     hargaCoret: "Rp 30.000",   // harga sebelum diskon — kosongkan jika tidak ada
     labelPromo: "Harga promo",  // tulisan kecil di samping harga — kosongkan jika tidak perlu
     tombol: "Beli di Lynk.id",
-    link: "",                  // ← TEMPEL LINK LYNK.ID DI SINI, contoh: "https://lynk.id/raatiara_/xxxx"
+    link: "https://lynk.id/13nurmutiarahusnah/4v96jq3g9oyx",   // link pembelian di Lynk.id
 
     // Gambar kecil di kartu halaman utama
     gambarKartu: "preview-ringkasan.jpg",
@@ -71,10 +71,11 @@ const CONFIG = {
       { gambar: "preview-catat-uang.jpg", keterangan: "Catat Uang: sekitar 10 detik per catatan" },
     ],
 
-    apaItu: "Planner Keuangan Pribadi adalah file Excel siap pakai untuk mencatat keuanganmu sehari-hari. Kamu cukup mengisi tanggal, jenis, kategori, dan jumlah uang. Sisanya dikerjakan planner: menjumlahkan semuanya, membandingkan dengan anggaran, menghitung progres tabungan, dan membuat grafik. Tidak harus sempurna, yang penting mulai.",
+    apaItu: "Planner Keuangan Pribadi adalah file Excel siap pakai untuk mencatat keuanganmu sehari-hari. Kamu cukup mengisi tanggal, jenis, kategori, dan jumlah uang. Sisanya dikerjakan planner: menjumlahkan semuanya, membandingkan dengan anggaran, menghitung progres tabungan, dan membuat grafik. Planner ini dirancang dengan prinsip belanja dari uang yang ada: tanpa bunga, tanpa paylater, dan tanpa kartu kredit.",
 
     kenapaPerlu: [
       "Kamu jadi tahu ke mana saja uangmu pergi setiap bulan.",
+      "Lebih mudah menyisihkan zakat, infak, dan sedekah secara rutin.",
       "Lebih mudah membedakan mana kebutuhan dan mana keinginan.",
       "Menabung jadi terarah karena setiap target terlihat progresnya.",
       "Kamu tahu berapa yang masih boleh dibelanjakan per hari sampai akhir bulan.",
@@ -84,7 +85,7 @@ const CONFIG = {
       { masalah: "Gaji cepat habis sebelum akhir bulan", solusi: "Sorotan bulan ini menunjukkan pengeluaran terbesar dan kategori yang melewati anggaran." },
       { masalah: "Bingung boleh jajan berapa hari ini", solusi: "Ada 'Jatah harian tersisa': sisa anggaran dibagi sisa hari." },
       { masalah: "Tabungan tidak pernah terkumpul", solusi: "Buat target seperti Dana Darurat atau DP Rumah, lalu pantau persentasenya." },
-      { masalah: "Uang tersebar di rekening, e-wallet, dan paylater", solusi: "Sheet Dompet & Utang mencatat saldo tiap rekening dan sisa tagihan." },
+      { masalah: "Masih punya utang yang ingin cepat lunas", solusi: "Sheet Utang menampilkan sisa utang, progres lunas, dan perkiraan kapan selesai, tanpa bunga." },
     ],
 
     fitur: [
@@ -93,9 +94,9 @@ const CONFIG = {
       { ikon: "🧮", judul: "Hitung Otomatis", isi: "Uang masuk, keluar, ditabung, dan sisa uang langsung terisi." },
       { ikon: "📋", judul: "Anggaran per Kategori", isi: "Status aman, mendekati batas, atau perlu dicek." },
       { ikon: "📊", judul: "Dashboard & Grafik", isi: "Pilih bulan dan tahun, rekap langsung berubah." },
-      { ikon: "💡", judul: "Sorotan Otomatis", isi: "Ringkasan kategori terbesar dan yang melewati anggaran." },
       { ikon: "⚖️", judul: "Kebutuhan : Keinginan", isi: "Lihat perbandingan belanja penting dan belanja keinginan." },
-      { ikon: "👛", judul: "Dompet & Utang", isi: "Saldo tiap rekening, e-wallet, paylater, dan cicilan." },
+      { ikon: "🤲", judul: "Zakat, Infak & Sedekah", isi: "Pos khusus agar berbagi jadi kebiasaan rutin setiap bulan." },
+      { ikon: "👛", judul: "Dompet & Pelunasan Utang", isi: "Saldo tiap rekening dan progres melunasi utang tanpa bunga." },
     ],
 
     caraPakai: [
@@ -108,7 +109,7 @@ const CONFIG = {
 
     // Isi paket yang didapat pembeli
     isiPaket: [
-      "File Planner Keuangan Pribadi (Excel)",
+      "File Planner Keuangan Pribadi (Excel), tanpa fitur bunga & paylater",
       "Panduan Cepat PDF: mulai mencatat dalam 5 menit",
       "Data contoh Agustus–Oktober 2026 untuk latihan",
       "Bisa dipakai di Excel 2010 ke atas / Microsoft 365 (Windows & Mac)",
@@ -116,10 +117,10 @@ const CONFIG = {
 
     cocokUntuk: [
       "Mahasiswa", "Karyawan & fresh graduate", "Ibu rumah tangga",
-      "Freelancer (penghasilan tidak tetap)", "Pengguna paylater & e-wallet", "Siapa saja yang ingin mulai rapi keuangan",
+      "Freelancer (penghasilan tidak tetap)", "Muslim yang ingin keuangan lebih berkah", "Siapa saja yang ingin mulai rapi keuangan",
     ],
 
-    catatan: "Planner ini alat bantu mencatat, bukan nasihat keuangan. Lisensi untuk pemakaian pribadi, tidak untuk dijual atau dibagikan ulang.",
+    catatan: "Planner ini alat bantu mencatat, bukan nasihat keuangan maupun fatwa. Lisensi untuk pemakaian pribadi, tidak untuk dijual atau dibagikan ulang.",
   },
 
 
@@ -127,12 +128,6 @@ const CONFIG = {
   // Untuk menambah produk/karya baru: salin satu blok { ... }, tempel di bawahnya,
   // lalu ubah isinya. Jangan lupa tanda koma di antara blok.
   lainnya: [
-    {
-      ikon: "🌱",
-      judul: "Karya Baru Segera Hadir",
-      deskripsi: "Sesuatu yang manis sedang disiapkan.",
-      link: "",
-    },
     // {
     //   ikon: "🎨",
     //   judul: "Template Canva",
