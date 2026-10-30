@@ -145,5 +145,4 @@ const CONFIG = {
     email: "",               // opsional, contoh: "tiara@email.com"
   },
 
-  footer: "Dibuat dengan ♡ oleh Tiara",
 };
