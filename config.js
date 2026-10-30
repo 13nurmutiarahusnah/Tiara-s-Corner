@@ -28,8 +28,8 @@ const CONFIG = {
   blog: {
     tampilkan: true,     // ubah ke false untuk menyembunyikan bagian ini
     label: "My Blog",
-    judul: "Ruang Tulisku",
-    deskripsi: "Tempat saya berbagi tulisan dan berbagai pemikiran.",
+    judul: "Ruang Tulis",
+    deskripsi: "Isinya hanya tulisan dan berbagai pemikiran yang dirasa terlalu panjang untuk jadi caption di instagram.",
     tombol: "Kunjungi Blog",
     link: "https://nurmutiara-h-hbw.blogspot.com/?m=1",
   },
@@ -57,7 +57,7 @@ const CONFIG = {
     ringkas: "Cukup catat uang masuk dan keluar. Total, anggaran, target tabungan, dan grafik dihitung otomatis. Tanpa bunga, tanpa paylater, ada pos zakat & sedekah.",
     format: "File Excel · tanpa makro · tanpa bunga",
     harga: "Rp 25.000",
-    hargaCoret: "Rp 30.000",   // harga sebelum diskon — kosongkan jika tidak ada
+    hargaCoret: "Rp 45.000",   // harga sebelum diskon — kosongkan jika tidak ada
     labelPromo: "Harga promo",  // tulisan kecil di samping harga — kosongkan jika tidak perlu
     tombol: "Beli di Lynk.id",
     link: "https://lynk.id/13nurmutiarahusnah/4v96jq3g9oyx",   // link pembelian di Lynk.id
