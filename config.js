@@ -38,9 +38,9 @@ const CONFIG = {
   /* ---------------------------- BUKU ------------------------------------ */
   buku: {
     tampilkan: true,
-    label: "My Book",
+    label: "Books & Publications",
     judul: "Analisis Epidemiologi Kebijakan Kesehatan",
-    deskripsi: "Buku tentang bagaimana epidemiologi membantu menyusun dan menilai kebijakan kesehatan, ditulis bersama rekan-rekan penulis.",
+    deskripsi: "Buku yang membahas penerapan pendekatan epidemiologi dalam perencanaan dan analisis kebijakan kesehatan. Berkontribusi sebagai penulis Bab III: Analisis Epidemiologi untuk Perencanaan.",
     // Cover diambil langsung dari halaman toko. Agar lebih aman, simpan
     // gambar cover ke folder "gambar" lalu ganti menjadi "gambar/cover-buku.jpg".
     cover: "https://ypad.store/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-06-at-11.47.54.jpeg",
