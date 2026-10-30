@@ -19,7 +19,7 @@ const CONFIG = {
   /* ---------------------------- PROFIL ---------------------------------- */
   nama: "Tiara's Corner",
   tagline: "A little corner of my world ♡",
-  sapaan: "Hai, senang kamu mampir! Di sini aku berbagi tulisan, buku, dan karya kecil yang kubuat dengan sepenuh hati.",
+  sapaan: "Hai, senang kamu mampir!",
   fotoProfil: "profil.jpeg",        // contoh: "gambar/profil.jpg"  — kosongkan untuk menampilkan inisial
   inisial: "T",
 
@@ -29,7 +29,7 @@ const CONFIG = {
     tampilkan: true,     // ubah ke false untuk menyembunyikan bagian ini
     label: "My Blog",
     judul: "Ruang Tulis",
-    deskripsi: "Isinya hanya tulisan dan berbagai pemikiran yang dirasa terlalu panjang untuk jadi caption di instagram.",
+    deskripsi: "Isinya hanya tulisan yang dirasa terlalu panjang untuk jadi caption di instagram.",
     tombol: "Kunjungi Blog",
     link: "https://nurmutiara-h-hbw.blogspot.com/?m=1",
   },
@@ -128,6 +128,12 @@ const CONFIG = {
   // Untuk menambah produk/karya baru: salin satu blok { ... }, tempel di bawahnya,
   // lalu ubah isinya. Jangan lupa tanda koma di antara blok.
   lainnya: [
+         {
+      ikon: "✍️",
+      judul: "Gimana Menulis Esai Beasiswa Pemerintah?",
+      deskripsi: "Antara esai yang baik dan esai yang diterima: catatan reflektif seorang awardee.",
+      link: "https://www.kompasiana.com/nurmutiarahusnahhbw4351/6811efe434777c4d1d068f03/antara-esai-yang-baik-dan-esai-yang-diterima-catatan-reflektif-seorang-awardee",
+    },
     // {
     //   ikon: "🎨",
     //   judul: "Template Canva",
