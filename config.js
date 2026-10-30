@@ -143,12 +143,5 @@ const CONFIG = {
   ],
 
 
-  /* ---------------------------- KONTAK ---------------------------------- */
-  kontak: {
-    instagram: "raatiara_",  // username saja, tanpa @
-    whatsapp: "",            // nomor diawali 62, tanpa + dan tanpa spasi   contoh: "6281234567890"
-    pesanWhatsapp: "Halo Tiara, aku mampir dari Tiara's Corner ♡",
-    email: "",               // opsional, contoh: "tiara@email.com"
-  },
 
 };
