@@ -20,7 +20,7 @@ const CONFIG = {
   nama: "Tiara's Corner",
   tagline: "A little corner of my world ♡",
   sapaan: "Hai, senang kamu mampir! Di sini aku berbagi tulisan, buku, dan karya kecil yang kubuat dengan sepenuh hati.",
-  fotoProfil: "tiara's profil.jpeg",        // contoh: "gambar/profil.jpg"  — kosongkan untuk menampilkan inisial
+  fotoProfil: "profil.jpeg",        // contoh: "gambar/profil.jpg"  — kosongkan untuk menampilkan inisial
   inisial: "T",
 
 
