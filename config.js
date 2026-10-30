@@ -19,7 +19,7 @@ const CONFIG = {
   /* ---------------------------- PROFIL ---------------------------------- */
   nama: "Tiara's Corner",
   tagline: "A little corner of my world ♡",
-  sapaan: "Hai, senang kamu mampir!",
+  sapaan: "Hai, makasih sudah mampir!",
   fotoProfil: "profil.jpeg",        // contoh: "gambar/profil.jpg"  — kosongkan untuk menampilkan inisial
   inisial: "T",
 
