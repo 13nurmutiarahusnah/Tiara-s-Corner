@@ -69,7 +69,7 @@ const CONFIG = {
     gambarPreview: [
       { gambar: "preview-dashboard.jpg", keterangan: "Dashboard: ringkasan keuangan bulanan otomatis" },
       { gambar: "preview-catat-uang.jpg", keterangan: "Catat Uang: sekitar 10 detik per catatan" },
-      { gambar: "Screenshot 2026-11-20 144241.png", keterangan: "Grafik: ke mana uangmu pergi, anggaran vs terpakai, dan tren bulanan" },
+      { gambar: "fotografik.png", keterangan: "Grafik: ke mana uangmu pergi, anggaran vs terpakai, dan tren bulanan" },
 ],
     ],
 
