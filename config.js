@@ -45,11 +45,11 @@ const CONFIG = {
     // gambar cover ke folder "gambar" lalu ganti menjadi "gambar/cover-buku.jpg".
     cover: "https://ypad.store/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-06-at-11.47.54.jpeg",
     tombol: "Beli Buku",
-    link: "https://ypad.store/product/analisis-epidemiologi-kebijakan-kesehatan/?v=4a5e17551e76",
+        link: "https://ypad.store/product/analisis-epidemiologi-kebijakan-kesehatan/?v=4a5e17551e76",
   },
 
 
-  /* ---------------------- PRODUK DIGITAL -------------------------------- */
+  /* ---------------------- PRODUK DIGITAL ---------------------- */
   planner: {
     tampilkan: true,
     label: "My Digital Product",
