@@ -54,8 +54,7 @@ const CONFIG = {
     tampilkan: true,
     label: "My Digital Product",
     nama: "Planner Keuangan Pribadi",
-    ringkas: "Cukup catat uang masuk dan keluar. Total, anggaran, target tabungan, dan grafik dihitung otomatis. Tanpa bunga, tanpa paylater, ada pos zakat & sedekah.",
-    format: "File Excel · tanpa makro · tanpa bunga",
+    ringkas: "Catat 10 detik, uangmu jadi lebih terarah! Total, anggaran, target tabungan, dan grafik dihitung otomatis.",
     harga: "Rp 25.000",
     hargaCoret: "Rp 45.000",   // harga sebelum diskon — kosongkan jika tidak ada
     labelPromo: "Harga promo",  // tulisan kecil di samping harga — kosongkan jika tidak perlu
@@ -71,11 +70,11 @@ const CONFIG = {
       { gambar: "preview-catat-uang.jpg", keterangan: "Catat Uang: sekitar 10 detik per catatan" },
     ],
 
-    apaItu: "Planner Keuangan Pribadi adalah file Excel siap pakai untuk mencatat keuanganmu sehari-hari. Kamu cukup mengisi tanggal, jenis, kategori, dan jumlah uang. Sisanya dikerjakan planner: menjumlahkan semuanya, membandingkan dengan anggaran, menghitung progres tabungan, dan membuat grafik. Planner ini dirancang dengan prinsip belanja dari uang yang ada: tanpa bunga, tanpa paylater, dan tanpa kartu kredit.",
+    apaItu: "Planner Keuangan Pribadi adalah file Excel siap pakai yang membantumu mencatat uang masuk dan keluar, memantau anggaran, dan menabung untuk target impianmu. Kamu cukup mengisi catatan. Total, status anggaran, progres tabungan, dan grafik dihitung otomatis.",
 
     kenapaPerlu: [
       "Kamu jadi tahu ke mana saja uangmu pergi setiap bulan.",
-      "Lebih mudah menyisihkan zakat, infak, dan sedekah secara rutin.",
+      "Pengeluaran lebih terkendali karena anggaran tiap kategori terpantau.",
       "Lebih mudah membedakan mana kebutuhan dan mana keinginan.",
       "Menabung jadi terarah karena setiap target terlihat progresnya.",
       "Kamu tahu berapa yang masih boleh dibelanjakan per hari sampai akhir bulan.",
@@ -84,19 +83,18 @@ const CONFIG = {
     masalah: [
       { masalah: "Gaji cepat habis sebelum akhir bulan", solusi: "Sorotan bulan ini menunjukkan pengeluaran terbesar dan kategori yang melewati anggaran." },
       { masalah: "Bingung boleh jajan berapa hari ini", solusi: "Ada 'Jatah harian tersisa': sisa anggaran dibagi sisa hari." },
-      { masalah: "Tabungan tidak pernah terkumpul", solusi: "Buat target seperti Dana Darurat atau DP Rumah, lalu pantau persentasenya." },
-      { masalah: "Masih punya utang yang ingin cepat lunas", solusi: "Sheet Utang menampilkan sisa utang, progres lunas, dan perkiraan kapan selesai, tanpa bunga." },
-    ],
+      { masalah: "Tabungan tidak pernah terkumpul", solusi: "Buat target, lalu pantau progres, tenggat, dan saran setoran per bulan." },
+      { masalah: "Saldo di catatan beda dengan saldo asli", solusi: "Saldo tiap dompet (tunai, rekening, e-wallet) bisa kamu cocokkan dengan saldo di aplikasi." 
+      },
 
     fitur: [
-      { ikon: "💰", judul: "Catat Uang Masuk & Keluar", isi: "Gaji, bonus, honor, makan, sewa, tagihan, semua di satu tempat." },
-      { ikon: "🐷", judul: "Nabung ke Target", isi: "Sisihkan uang ke Dana Darurat, liburan, atau DP rumah." },
-      { ikon: "🧮", judul: "Hitung Otomatis", isi: "Uang masuk, keluar, ditabung, dan sisa uang langsung terisi." },
-      { ikon: "📋", judul: "Anggaran per Kategori", isi: "Status aman, mendekati batas, atau perlu dicek." },
-      { ikon: "📊", judul: "Dashboard & Grafik", isi: "Pilih bulan dan tahun, rekap langsung berubah." },
-      { ikon: "⚖️", judul: "Kebutuhan : Keinginan", isi: "Lihat perbandingan belanja penting dan belanja keinginan." },
-      { ikon: "🤲", judul: "Zakat, Infak & Sedekah", isi: "Pos khusus agar berbagi jadi kebiasaan rutin setiap bulan." },
-      { ikon: "👛", judul: "Dompet & Pelunasan Utang", isi: "Saldo tiap rekening dan progres melunasi utang tanpa bunga." },
+      { ikon: "📊", judul: "Dashboard Otomatis", isi: "8 kartu ringkasan + 4 grafik. Ganti bulan dan tahun lewat dropdown, rekap langsung berubah." },
+      { ikon: "⚡", judul: "Catat Transaksi Cepat", isi: "Pilih Jenis (Pemasukan / Pengeluaran / Tabungan), kategori menyesuaikan otomatis. Sekitar 10 detik per catatan." },
+      { ikon: "✅", judul: "Kolom Cek Pintar", isi: "Mengingatkan kalau ada data yang belum lengkap. Ada filter untuk mencari catatan lama." },
+      { ikon: "📋", judul: "Anggaran per Kategori", isi: "Status berwarna otomatis: Aman, Hampir, atau Melebihi. Nama kategori dan nominal bebas kamu ubah." },
+      { ikon: "🐷", judul: "Target Tabungan", isi: "Pantau progres, tenggat, dan saran setoran per bulan untuk setiap impianmu." },
+      { ikon: "👛", judul: "Saldo Tiap Dompet", isi: "Tunai, rekening, dan e-wallet. Bandingkan dengan saldo asli di aplikasimu." },
+      { ikon: "⚖️", judul: "Kebutuhan : Keinginan", isi: "Lihat rasio belanja penting dan belanja keinginan setiap bulan." },
     ],
 
     caraPakai: [
@@ -116,11 +114,11 @@ const CONFIG = {
     ],
 
     cocokUntuk: [
-      "Mahasiswa", "Karyawan & fresh graduate", "Ibu rumah tangga",
-      "Freelancer (penghasilan tidak tetap)", "Muslim yang ingin keuangan lebih berkah", "Siapa saja yang ingin mulai rapi keuangan",
+     "Karyawan", "Mahasiswa", "Ibu rumah tangga",
+      "Freelancer", "Siapa saja yang ingin mulai mengatur keuangan dengan cara sederhana",
     ],
 
-    catatan: "Planner ini alat bantu mencatat, bukan nasihat keuangan maupun fatwa. Lisensi untuk pemakaian pribadi, tidak untuk dijual atau dibagikan ulang.",
+    catatan: "Planner ini alat bantu mencatat, bukan nasihat keuangan. Angka hanya seakurat catatan yang kamu isi. Tampilan bisa sedikit berbeda tergantung versi Excel dan perangkat, dan paling nyaman dibuka di Excel versi desktop (Windows/Mac). Produk digital berupa file (bukan barang fisik) yang diunduh setelah pembayaran di Lynk.id, dan umumnya tidak dapat dikembalikan.",
   },
 
 
