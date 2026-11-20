@@ -55,6 +55,7 @@ const CONFIG = {
     label: "My Digital Product",
     nama: "Planner Keuangan Pribadi",
     ringkas: "Catat 10 detik, uangmu jadi lebih terarah! Total, anggaran, target tabungan, dan grafik dihitung otomatis.",
+   format: "File Excel (.xlsx) · 7 sheet · tanpa makro",
     harga: "Rp 25.000",
     hargaCoret: "Rp 45.000",   // harga sebelum diskon — kosongkan jika tidak ada
     labelPromo: "Harga promo",  // tulisan kecil di samping harga — kosongkan jika tidak perlu
@@ -84,8 +85,8 @@ const CONFIG = {
       { masalah: "Gaji cepat habis sebelum akhir bulan", solusi: "Sorotan bulan ini menunjukkan pengeluaran terbesar dan kategori yang melewati anggaran." },
       { masalah: "Bingung boleh jajan berapa hari ini", solusi: "Ada 'Jatah harian tersisa': sisa anggaran dibagi sisa hari." },
       { masalah: "Tabungan tidak pernah terkumpul", solusi: "Buat target, lalu pantau progres, tenggat, dan saran setoran per bulan." },
-      { masalah: "Saldo di catatan beda dengan saldo asli", solusi: "Saldo tiap dompet (tunai, rekening, e-wallet) bisa kamu cocokkan dengan saldo di aplikasi." 
-      },
+      { masalah: "Saldo di catatan beda dengan saldo asli", solusi: "Saldo tiap dompet (tunai, rekening, e-wallet) bisa kamu cocokkan dengan saldo di aplikasi." },
+    ],
 
     fitur: [
       { ikon: "📊", judul: "Dashboard Otomatis", isi: "8 kartu ringkasan + 4 grafik. Ganti bulan dan tahun lewat dropdown, rekap langsung berubah." },
