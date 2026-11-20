@@ -69,9 +69,8 @@ const CONFIG = {
     gambarPreview: [
       { gambar: "preview-dashboard.jpg", keterangan: "Dashboard: ringkasan keuangan bulanan otomatis" },
       { gambar: "preview-catat-uang.jpg", keterangan: "Catat Uang: sekitar 10 detik per catatan" },
-      { gambar: "fotografik.png", keterangan: "Grafik: ke mana uangmu pergi, anggaran vs terpakai, dan tren bulanan" },
+      { gambar: "fotografik.jpg", keterangan: "Grafik: ke mana uangmu pergi, anggaran vs terpakai, dan tren bulanan" },
 ],
-    ],
 
     apaItu: "Planner Keuangan Pribadi adalah file Excel siap pakai yang membantumu mencatat uang masuk dan keluar, memantau anggaran, dan menabung untuk target impianmu. Kamu cukup mengisi catatan. Total, status anggaran, progres tabungan, dan grafik dihitung otomatis.",
 
